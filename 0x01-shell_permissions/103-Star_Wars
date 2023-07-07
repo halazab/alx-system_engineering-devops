@@ -1,2 +1,2 @@
 #!/bin/bash
-mpv --no-video https://www.youtube.com/watch?v=XHk5kCIiGoM
+telnet towel.blinkenlights.nl
