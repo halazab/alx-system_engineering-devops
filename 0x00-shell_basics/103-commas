@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1Ap | sed -z 's/\n/, /g; s/,$/\n/' | sed 's/\/$/\//' | sort -d -k1.1,1.1 -k1.2n -k1.3n -k1.4n
