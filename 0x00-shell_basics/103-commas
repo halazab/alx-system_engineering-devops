@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | awk '/^\.\.$/ || /^\.$/ || /^[[:alnum:]]/ { printf "%s, ", $0 } END { printf "\n" }'
+ls -am --file-type 
