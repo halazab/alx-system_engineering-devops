@@ -1,2 +1,2 @@
 #!/bin/bash
-bash -c 'read -p "Enter a string: " input_string && echo "Reversed string: $(echo $input_string | rev)"'
+rev
