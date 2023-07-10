@@ -1,2 +1,2 @@
 #!/bin/bash
-readarray -t lines < iacta; printf '%s\n' "${lines[@]}" "${lines[-1]}" >> iacta
+tail -n 1 iacta >> iacta
