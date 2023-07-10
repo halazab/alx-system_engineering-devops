@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Enter a string: " input_string && modified_string=$(echo "$input_string" | tr -d 'cC') && echo "Modified string: $modified_string"
+tr -d 'cC'
