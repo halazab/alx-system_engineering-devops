@@ -1,0 +1,2 @@
+#!/bin/bash
+read -p "Enter a string: " input_string && modified_string=$(echo "$input_string" | sed 's/A/Z/g' | sed 's/c/e/g') && echo "Modified string: $modified_string"
